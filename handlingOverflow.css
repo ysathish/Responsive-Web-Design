@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+ background-image:url("https://assets.ccbp.in/frontend/intermediate-rwd/summer-collection-bg.png");
+ background-size: cover;
+ height: 100vh;
+ border: 1px solid gray;
+}
+.card-container{
+   border: 1px solid gray;
+   border-radius: 24px;
+   background: white;
+   margin: auto;
+   margin-top:80px;
+   width:92%;
+   /* new */
+   max-width: 800px;
+}
+.heading{
+    padding-left: 20px;
+    font-size: 32px;
+}
+.card-body{
+    height: 60vh;
+    padding: 32px;
+    padding-left:20px;
+    padding-right:20px;
+    border-top: 1px solid gray;
+    /* new */
+    overflow-y: auto;
+
+
+}
+.image{
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 24px;
+
+}
+.description {
+    color: #594d6d;
+    font-size: 18px;
+  }
+  .button{
+    background-color: red;
+    font-size: 16px;
+    font-weight: 700;
+    background:  #ffdda9;
+    color:#12022f;
+    border: none;
+    border-radius: 20px;
+    padding:12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 5px;
+    /* width: 24px; */
+
+  }
