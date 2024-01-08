@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+.container{
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/music-section-bg.png");
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family:"Open Sans";
+background-size: cover;
+}
+.head{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+.para{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    max-width: 600px;
+    width:90%;
+}
+.button1{
+    height: 50px;
+    width: 120px;
+    background-color: #ffdda9;
+    border-radius: 24px;
+    margin: 10px;
+}
+.button2{
+    height: 50px;
+    width: 120px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 24px;
+    margin: 10px;
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+}
